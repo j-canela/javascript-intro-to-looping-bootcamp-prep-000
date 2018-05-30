@@ -3,15 +3,15 @@ function forLoop(array){
   for (var i =0; i<25; i++){
     if(i===1){
       
-      array.unshift("i am 1 strange loop")
+      array.push("i am 1 strange loop")
     }
     else{
-      array.unshift("i am ${i} strange loops")
+      array.push("i am ${i} strange loops")
     }
     
     
   }
-  return array[i];
+  return array;
 }
 
 function whileLoop(n){
